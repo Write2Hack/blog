@@ -1,7 +1,7 @@
-title: Write2Hack
+title: Madhu
 author:
   name: Madhu Surisetti
-  email: mail@write2hack.in
+  email: mail@madhu.live
 
 google_analytics: G-659S208QCP
 # description: >
@@ -33,6 +33,6 @@ minima:
   #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
   #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
   #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
-    - { platform: twitter,        user_url: "https://twitter.com/Write2Hack" }
-    - { platform: x,              user_url: "https://x.com/Write2Hack" }
+    - { platform: twitter,        user_url: "https://twitter.com/QuantumFlight" }
+    - { platform: x,              user_url: "https://x.com/QuantumFlight" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
