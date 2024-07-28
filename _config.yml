@@ -1,11 +1,9 @@
 title: Write2Hack
 author:
-  name: Write2Hack
+  name: Madhu Surisetti
   email: mail@write2hack.in
 
 google_analytics: G-659S208QCP
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
 # description: >
 #  I am Madhu Surisetti aka Write2Hack. I love to write and I love to hack. Subscribe for updates.
 
@@ -13,13 +11,11 @@ google_analytics: G-659S208QCP
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
-
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 header_pages:
@@ -28,12 +24,6 @@ header_pages:
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   skin: classic
-
-  # Minima date format.
-  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023)
-  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #date_format: "%b-%d-%Y"
-
   # Generate social links in footer.
   social_links:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
@@ -46,5 +36,3 @@ minima:
     - { platform: twitter,        user_url: "https://twitter.com/Write2Hack" }
     - { platform: x,              user_url: "https://x.com/Write2Hack" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-
-

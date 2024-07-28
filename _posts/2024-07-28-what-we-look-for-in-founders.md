@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What we look for in Founders
-date: 2024-07-28 13:00 +0530
+date: "2024-07-28"
 author: Paul Graham
 ---
 

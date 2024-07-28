@@ -1,12 +1,21 @@
 ---
 layout: base
 ---
-
 <div class="home">
   <h1 class="post-title">All Essays</h1>
   <main class="page-content" aria-label="Content">
-      {% for post in site.posts %}
-            <p>🔥 <a href="{{ post.url }}"> {{ post.title }} </a></p>
+      {% assign all_entries = site.posts | concat: site.data.tweets %}
+      {% assign sorted_entries = all_entries | sort: 'date' | reverse %}
+      {% for entry in sorted_entries %}
+        {% if entry.tweet_url %}
+          <p style="margin-left: 5px;">
+            𝕏 <a style="margin-left: 6px;" href="{{ entry.tweet_url }}" target="_blank">
+              {{ entry.title }}
+              </a>
+          </p>
+        {% else %}
+          <p>🔥 <a href="{{ entry.url }}"> {{ entry.title }}, {{ entry.date }} </a></p>
+        {% endif %}
       {% endfor %}
   </main>
 </div>

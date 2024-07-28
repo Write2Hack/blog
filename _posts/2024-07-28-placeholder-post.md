@@ -2,6 +2,7 @@
 layout: post
 title: "The Reddits"
 author: Paul Graham
+date: "2024-07-06"
 ---
 
 I met the Reddits before we even started Y Combinator. In fact they were one of the reasons we started it.

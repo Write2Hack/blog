@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Change your name
-date: 2024-07-28 13:33 +0530
+title: "Change your name"
+date: "2024-07-27"
 ---
 
 If you have a US startup called X and you don't have x.com, you should probably change your name.
