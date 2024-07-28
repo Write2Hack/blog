@@ -9,12 +9,10 @@ layout: base
       {% for entry in sorted_entries %}
         {% if entry.tweet_url %}
           <p style="margin-left: 5px;">
-            𝕏 <a style="margin-left: 6px;" href="{{ entry.tweet_url }}" target="_blank">
-              {{ entry.title }}
-              </a>
+            𝕏 <a style="margin-left: 6px;" href="{{ entry.tweet_url }}" target="_blank">{{ entry.title }}</a>
           </p>
         {% else %}
-          <p>🔥 <a href="{{ entry.url }}"> {{ entry.title }}, {{ entry.date }} </a></p>
+          <p>🔥 <a href="{{ entry.url }}">{{ entry.title }}</a></p>
         {% endif %}
       {% endfor %}
   </main>
