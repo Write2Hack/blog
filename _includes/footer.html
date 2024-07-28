@@ -2,7 +2,9 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-    <h1 style="text-align: center;">Thank you for reading.</h1>
+    <h1 style="text-align: center;">
+      {% if page.layout == "post" %}Thank you for reading.{% else %}Subscribe by email.{% endif %}
+    </h1>
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <script async data-uid="e1dc08aeb7" src="https://write2hack.ck.page/e1dc08aeb7/index.js"></script>
