@@ -2,8 +2,15 @@
 layout: page
 title: About
 permalink: /about/
+heading: About Me
 ---
 
-I am [Madhu Surisetti](https://x.com/QuantumFlight). I love to write and I love to hack. Subscribe for updates.
+👋 Hi, I’m {{ site.author.name }}
 
-You can talk to me at {{ site.author.email }}
+🌱 I’m interested in writing, hacking, software, physics, sciences, tech in general.
+
+📫 My email address is {{ site.author.email }}
+
+🐥 Follow me on [Twitter](https://x.com/OrbitalSpecies)
+
+⚡ [Subscribe](/subscribe/) for updates.

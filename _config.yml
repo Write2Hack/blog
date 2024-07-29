@@ -1,11 +1,30 @@
-title: Madhu
+title: Madhu Surisetti
 author:
   name: Madhu Surisetti
-  email: mail@madhu.live
-
+  email: madhu at madhusurisetti.com
+domain: madhusurisetti.com
 google_analytics: G-659S208QCP
-# description: >
-#  I am Madhu Surisetti aka Write2Hack. I love to write and I love to hack. Subscribe for updates.
+footer_home_msg: Made by Madhu Surisetti
+footer_essay_msg: Thank you for reading
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Build settings
 
@@ -20,19 +39,13 @@ plugins:
 # in order as they should show up.
 header_pages:
   - about.md
+  - subscribe.md
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   skin: classic
-  # Generate social links in footer.
   social_links:
-  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
     - { platform: github,         user_url: "https://github.com/Write2Hack/blog" }
-  #  - { platform: gitlab,         user_url: "https://gitlab.com/jekyll" }
-  #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-  #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-  #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-  #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
     - { platform: twitter,        user_url: "https://twitter.com/QuantumFlight" }
     - { platform: x,              user_url: "https://x.com/QuantumFlight" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }

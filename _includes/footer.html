@@ -3,7 +3,15 @@
 
   <div class="wrapper">
     <h1 style="text-align: center;">
-      {% if page.layout == "post" %}Thank you for reading.{% else %}Subscribe by email.{% endif %}
+      <i>
+        <u>
+          {% if page.layout == "post" %}
+            {{ site.footer_essay_msg }}
+          {% else %}
+            {{ site.footer_home_msg }}
+          {% endif %}
+        </u>
+      </i>
     </h1>
     <div class="footer-col-wrapper">
       <div class="footer-col">
