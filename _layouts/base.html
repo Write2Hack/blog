@@ -7,7 +7,7 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <main class="page-content" aria-label="Content" style="text-align: {% if page.text_align %} {{ page.text-align }} {% else %} justify {% endif %};">
       <div class="wrapper">
         {{ content }}
       </div>
