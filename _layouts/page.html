@@ -3,11 +3,11 @@ layout: base
 ---
 <article class="post">
 
-  {% if page.title %}
+  {% unless page.no_heading %}
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
-  {% endif %}
+  {% endunless %}
 
   <div class="post-content">
     {{ content }}
